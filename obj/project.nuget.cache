@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "DgE8Hd1EsZxVP8NhwlwZjpy0vEskS6+4ghFVOo57PCOCC4FwcCrfJzvwPuilkNlFSMkMfmSyQpEIczOi9XnXfQ==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\Minesworth\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\XIV\\XIV.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package tModLoader.CodeAssist. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "tModLoader.CodeAssist",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETFramework.ReferenceAssemblies. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETFramework.ReferenceAssemblies",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5"
+      ]
+    }
+  ]
+}

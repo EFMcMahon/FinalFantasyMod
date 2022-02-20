@@ -1,0 +1,3 @@
+displayName = FFXIV
+author = LordRictoffin
+version = 0.1

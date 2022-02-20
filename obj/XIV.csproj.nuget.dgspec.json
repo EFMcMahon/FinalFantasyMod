@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\Minesworth\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\XIV\\XIV.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Minesworth\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\XIV\\XIV.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Minesworth\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\XIV\\XIV.csproj",
+        "projectName": "XIV",
+        "projectPath": "c:\\Users\\Minesworth\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\XIV\\XIV.csproj",
+        "packagesPath": "C:\\Users\\Minesworth\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Minesworth\\Documents\\My games\\Terraria\\ModLoader\\Mod Sources\\XIV\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Minesworth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            },
+            "tModLoader.CodeAssist": {
+              "target": "Package",
+              "version": "[0.1.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
