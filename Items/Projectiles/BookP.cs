@@ -26,11 +26,9 @@ namespace XIV.Items.Projectiles
             projectile.damage = 13;
         }
 
-		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)                //HERE
+		public override void OnHitNPC(NPC target, int damage, float knockback, bool crit)           
         {
-            target.AddBuff(BuffID.OnFire, 30 * 60);
-            target.AddBuff(BuffID.Ichor, 30 * 60);
+			target.AddBuff(ModContent.BuffType<Buff.Necrosis>(), 30 * 60);
         }
-		
 	}
 }

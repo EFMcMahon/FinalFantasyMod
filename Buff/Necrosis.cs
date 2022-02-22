@@ -13,14 +13,29 @@ namespace XIV.Buff
 		public override void SetDefaults() {
 			DisplayName.SetDefault("Necrosis");
 			Description.SetDefault("Losing life");
+			Main.buffNoTimeDisplay[Type] = false;
+			Main.debuff[Type] = true;
+			Main.pvpBuff[Type] = true;
+			Main.buffNoSave[Type] = true;
+			longerExpertDebuff = true;	
 		}
 
-		public override void Update(Player player, ref int buffIndex) {
-			player.Necrosis = true;
+		public override void Update(NPC npc, ref int buffIndex)
+		{
+			if (!npc.friendly) {
+				if (npc.lifeRegen > 0) {
+					npc.lifeRegen = 0;
+				}
+				npc.lifeRegen -= 5;
+		}
 		}
 
-		public override void Update(NPC npc, ref int buffIndex) {
-			npc.Necrosis = true;
+		public override void Update(Player player, ref int buffIndex)
+		{
+			if (player.lifeRegen > 0) {
+				player.lifeRegen = 0;
+			}
+			player.lifeRegen -= 5;
 		}
     }
 }
